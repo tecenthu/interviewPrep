@@ -23,7 +23,7 @@ ll1.next.next.next = llist(50)
 # print(vars(ll1))
 # print(vars(ll1.next))
 #print(vars(ll1.next.next.next))
-import pdb;pdb.set_trace()
+#import pdb;pdb.set_trace()
 traverseLinkList(ll1)
 #while ll1.next != None:
 
@@ -40,4 +40,5 @@ def searchInLinkList(linkEx1, elem):
             break
         linkEx1 = linkEx1.next
         counter+=1
+
 searchInLinkList(ll1, elem=40)
