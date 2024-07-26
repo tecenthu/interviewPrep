@@ -1,0 +1,29 @@
+Stack is a Linear Data Strucutre based on LIFO(Last In First Out) Principle in which the
+insertion of new element and removal of existings element take place at top.
+
+Basic Operation on Stack Data Strucutre:
+    - push() to insert an element into stack 
+    - pop() to remove an element from stack
+    - isFull() return true if the stack is full
+    - isEmpty() return true if stack is empty
+    - top() Return the top element of the stack
+
+# Implementation of Stack Data Strucutres
+    - Using Array --> Done
+        Advantages:
+            - Easy to implement
+            - Memory is saved as pointers are not involved
+        Disavantages:
+            - it is not dynamic
+            - total s
+    - Using Linked List
+
+# Stack in python can be implemented using the following ways:
+    - list
+    - Collection.deque
+    - queue.LifoQueue
+# Implementation Using List:
+   - Python Built-in data Strucutre list can be used as a stack. Instead of push(), append() is used to add elements to the top of stack while pop() removes the element in LIFO order
+
+   - List has a few shortcomings. The biggest issue is it's become slow when it's grow.
+    It's required to do some memory allocations which leads append() calls taking much longer than other ones
